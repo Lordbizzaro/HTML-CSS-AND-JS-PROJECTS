@@ -1,0 +1,78 @@
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.content_section4 {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_section4 .header {
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.content_section4 .small_caption {
+    color: grey;
+}
+
+.content_section4 .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content_section4 .contact .details div {
+    font-size: 18px;
+}
+
+.content_section4 .contact .details div i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.content_section4 .contact .form form #name {
+    padding: 10px;
+    width: 49%;
+}
+
+.content_section4 .contact .form form #email {
+    padding: 10px;
+    width: 49%;
+}
+
+.content_section4 .contact .form form #message {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content_section4 .contact .form form {
+    position: relative;
+}
+
+.content_section4 .contact .form form .btn {
+    margin: 10px 10px 10px 0px;
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.content_section4 .contact .form form .btn:hover {
+    background-color: #cccccc;
+    color: black;
+}

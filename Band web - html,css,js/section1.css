@@ -1,0 +1,65 @@
+.photos {
+    width: 100%;
+    height: 94.1vh;
+    background-color: white;
+}
+
+
+/*font-family: 'Exo 2', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+.photos img {
+    width: 100%;
+    height: 94.1vh;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-18px);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 8px 12px;
+    position: absolute;
+}
+
+.caption {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.photos .caption h1 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.photos .caption p {
+    font-size: 20px;
+}
+
+.photos .spetial {
+    position: absolute;
+    top: 80px;
+}

@@ -1,0 +1,89 @@
+.section3 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content_section3 {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_section3 .header {
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.content_section3 .small_caption {
+    color: grey;
+}
+
+.content_section3 .table {
+    background-color: white;
+    width: 100%;
+    color: black;
+}
+
+.content_section3 .table .table_row td {
+    padding: 15px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.content_section3 .location {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 7px;
+    position: relative;
+}
+
+.content_section3 .location .location_1 {
+    height: 400px;
+    width: 262px;
+    background-color: white;
+}
+
+.content_section3 .location .location_1 img {
+    width: 100%;
+    height: 225px;
+}
+
+.content_section3 .location .location_1 .heading {
+    color: black;
+    margin: 10px;
+}
+
+.content_section3 .location .location_1 .small_caption {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.content_section3 .location .location_1 .details {
+    color: black;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.content_section3 .location .location_1 .btn {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content_section3 .location .location_1 .btn:hover {
+    background-color: #cccccc;
+    color: black;
+}
